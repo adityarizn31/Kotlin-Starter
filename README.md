@@ -13,4 +13,4 @@ Terdapat contoh komentar dalam bahasa pemrogaman kotlin ini seperti halnya sama 
    */
 
 * Main <br>
-
+Merupakan fungsi yang wajib digunakan untuk entry point yang otomatis akan dipanggil ketika program akan dijalankan

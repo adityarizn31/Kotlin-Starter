@@ -32,3 +32,22 @@ untuk mengembangkan sebuah program. Ada beberapa type data :
 var company : String = "Dicoding"
 ```
 Initialization merupakan inisialisasi atau nilai awal dari sebuah variabel biasanya ditandai dengan tanda "" "". 
+
+#### Kodingan 
+
+```kotlin
+var company : String = "Dicoding"
+    //company = "Dicoding Academy"
+
+    fun main() {
+        val pertama = " Dicoding "
+        val kedua = " Academy "
+
+        val angka1 : Int = 20
+        val angka2 = 30
+
+
+        print(pertama + kedua)
+        print(angka1 + angka2)
+    }
+```

@@ -1,6 +1,6 @@
 ## KOTLIN STARTER
 
-* Pendahuluan <br>
+### Pendahuluan <br>
 
 * Print & Println <br>
 Penggunaan **Print** dan **Println**. Print digunakan untuk mencetak teks saja tanpa menambahkan baris baru sedangkan pada println digunakan untuk mencetak teks ke dalam layar atau konsol yang nantinya terdapat baris baru. Fungsi print ini secara internal memanggil fungsi **SOUT** pada bahasa pemrograman java.

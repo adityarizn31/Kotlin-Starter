@@ -9,8 +9,8 @@ Penggunaan **Print** dan **Println**. Print digunakan untuk mencetak teks saja t
 Terdapat contoh komentar dalam bahasa pemrogaman kotlin ini seperti halnya sama dengan bahasa pemrogaman java : 
 1. // Single Line Comment : Merupakan komentar untuk satu baris saja
 2. /*
-   Multi Line Comment : Digunakan untuk komentar panjang atau lebih dari satu baris
-   */
+  <br> Multi Line Comment : Digunakan untuk komentar panjang atau lebih dari satu baris
+   <br> */ 
 
 * Main <br>
 Merupakan fungsi yang wajib digunakan untuk entry point yang otomatis akan dipanggil ketika program akan dijalankan

@@ -44,3 +44,14 @@ Misal :
 val statement ="Kotlin is awesome"
 val statement ="Kotlin is "awesome""
 val statement ="Kotlin is \"awesome\"
+```
+Maka akan terjadi ambiguitas nilai pada variabel statement karena kompiler tidak dapat mengetahui akhir dari baris nilai untuk variabel statement. 
+Yang disebut dengan **Escaped** yaitu menambahkan <i> backslash </i> <br>
+* **\t** : menambah tab ke dalam teks
+* **\n** : membuat baris baru di dalam teks
+* **\'** : menambah karakter single quote ke dalam teks
+* **\"** : menambah karakter double qoute ke dalam teks
+* **\\** : menambah karakter <i> backslash </i> ke dalam teks
+
+
+

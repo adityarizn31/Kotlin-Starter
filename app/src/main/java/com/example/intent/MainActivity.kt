@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveWithDataActivity: Button = findViewById(R.id.btn_move_activity_data)
         btnMoveWithDataActivity.setOnClickListener(this)
+
+        val btnMoveWithDataObjectParcelable: Button = findViewById(R.id.btn_move_activity_object_parcelable)
+        btnMoveWithDataObjectParcelable.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -40,6 +43,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Aditya Rizkiawan N")
                 moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5)
                 startActivity(moveWithDataIntent)
+            }
+
+            R.id.btn_move_activity_object_parcelable -> {
+                val person = Person (
+                    "Aditya Rizkiawan",
+                    5,
+                    "Android Developer",
+                    "Majalengka"
+                )
+
+                val moveWithDataParcelableIntent = Intent(this@MainActivity, MoveWithObjectActivity::class.java)
+                moveWithDataParcelableIntent.putExtra(MoveWithObjectActivity.EXTRA_PERSON, person)
+                startActivity(moveWithDataParcelableIntent)
             }
         }
     }

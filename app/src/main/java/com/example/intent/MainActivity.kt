@@ -1,6 +1,7 @@
 package com.example.intent
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -28,6 +29,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveWithDataObjectParcelable: Button = findViewById(R.id.btn_move_activity_object_parcelable)
         btnMoveWithDataObjectParcelable.setOnClickListener(this)
+
+        val btnDialPhone: Button = findViewById(R.id.btn_dial_number)
+        btnDialPhone.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -56,6 +60,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val moveWithDataParcelableIntent = Intent(this@MainActivity, MoveWithObjectActivity::class.java)
                 moveWithDataParcelableIntent.putExtra(MoveWithObjectActivity.EXTRA_PERSON, person)
                 startActivity(moveWithDataParcelableIntent)
+            }
+
+            R.id.btn_dial_number -> {
+                val phoneNumber = "082262309419"
+                val phoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
+                startActivity(phoneIntent)
             }
         }
     }

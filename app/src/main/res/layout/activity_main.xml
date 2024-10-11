@@ -15,13 +15,16 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
                 android:src="@drawable/pixel_google" />
+
             <TextView
+                style="@style/TextContent.BodyMedium.White.MarginAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
@@ -38,6 +41,7 @@
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent.HeadlineMedium.Bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -48,6 +52,7 @@
             android:textSize="32sp" />
 
         <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -58,6 +63,7 @@
             android:textStyle="bold" />
 
         <TextView
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -69,6 +75,7 @@
 <!--        Menambahkan Table Layout-->
 <!--        Specification-->
         <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -91,6 +98,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -98,6 +106,7 @@
                     android:text="@string/display" />
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -112,6 +121,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -119,6 +129,7 @@
                     android:text="@string/size" />
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -133,6 +144,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -140,6 +152,7 @@
                     android:text="@string/battery" />
 
                 <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -149,8 +162,9 @@
             </TableRow>
 
         </TableLayout>
-        
+
         <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -175,6 +189,7 @@
                 android:src="@drawable/photo_2" />
 
             <TextView
+                style="@style/TextContent.BodyMedium.Gray"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
